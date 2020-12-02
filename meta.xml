@@ -58,7 +58,7 @@
         </match_config>
     </preset>
 	<preset>
-        <name>Demo[meta]</name>
+        <name>Demo ?meta?</name>
         <no_match_scene>Albion</no_match_scene>
         <no_match_transition>Fade</no_match_transition>
         <match_config>
