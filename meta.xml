@@ -119,7 +119,7 @@
         <no_match_transition>Fade</no_match_transition>
         <match_config>
             <label>Map</label>
-            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/map_automask.png</match_image_filename>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/doesnotexist.png</match_image_filename>
             <roi_left>1541</roi_left>
             <roi_bottom>782</roi_bottom>
             <per_pixel_allowed_error>10</per_pixel_allowed_error>
