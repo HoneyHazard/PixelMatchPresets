@@ -1,172 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pixel-match-switcher>
-<presets obs_version="0.20.0-alpha-1-g0704ad6b-modified">
+<pixel_match_switcher>
+    <obs_version>0.23.0-alpha-modified</obs_version>
+    <plugin_version>0.23.0-alpha</plugin_version>
     <preset>
-        <name>Albion</name>
-        <no_match_scene>Albion</no_match_scene>
-        <no_match_transition>Fade</no_match_transition>
+        <name>Albion: Toggle Filters</name>
+        <match_config>
+            <label>Map Conceal</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/map_automask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>1564</roi_left>
+            <roi_bottom>819</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>85</total_match_threshold>
+            <invert_result>false</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal Map: Show</target_filter>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>No Map</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/map_automask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>1564</roi_left>
+            <roi_bottom>819</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>85</total_match_threshold>
+            <invert_result>true</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal Map: Hide</target_filter>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>Dst Pane Conceal</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/dst_pane_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>16</roi_left>
+            <roi_bottom>120</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>70</total_match_threshold>
+            <invert_result>false</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal Dst: Show</target_filter>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>No Dst Pane</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/dst_pane_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>16</roi_left>
+            <roi_bottom>120</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>70</total_match_threshold>
+            <invert_result>true</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal Dst: Hide</target_filter>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>World Conceal</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/world_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>6</roi_left>
+            <roi_bottom>0</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal World: Show</target_filter>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>No World</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/world_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>6</roi_left>
+            <roi_bottom>0</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>90</total_match_threshold>
+            <invert_result>true</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal World: Hide</target_filter>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>Realm Conceal</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/realm_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>0</roi_left>
+            <roi_bottom>3</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal Realm: Show</target_filter>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>No Realm</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/realm_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>0</roi_left>
+            <roi_bottom>3</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>90</total_match_threshold>
+            <invert_result>true</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>3</type>
+                <target_filter>Conceal Realm: Hide</target_filter>
+            </reaction>
+        </match_config>
+    </preset>
+    <preset>
+        <name>Albion: Switch Scenes</name>
         <match_config>
             <label>Map</label>
             <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/map_automask.png</match_image_filename>
-            <roi_left>1541</roi_left>
-            <roi_bottom>782</roi_bottom>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>1564</roi_left>
+            <roi_bottom>819</roi_bottom>
             <per_pixel_allowed_error>10</per_pixel_allowed_error>
             <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
             <mask_mode>0</mask_mode>
             <mask_alpha>true</mask_alpha>
             <mask_color_r>0</mask_color_r>
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover Map</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
         </match_config>
         <match_config>
             <label>Dst Pane</label>
             <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/dst_pane_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
             <roi_left>16</roi_left>
             <roi_bottom>120</roi_bottom>
             <per_pixel_allowed_error>10</per_pixel_allowed_error>
-            <total_match_threshold>90</total_match_threshold>
+            <total_match_threshold>85</total_match_threshold>
+            <invert_result>false</invert_result>
             <mask_mode>0</mask_mode>
             <mask_alpha>true</mask_alpha>
             <mask_color_r>0</mask_color_r>
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover Dst Pane</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
         </match_config>
         <match_config>
             <label>World</label>
             <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/world_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
             <roi_left>6</roi_left>
             <roi_bottom>0</roi_bottom>
             <per_pixel_allowed_error>10</per_pixel_allowed_error>
             <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
             <mask_mode>0</mask_mode>
             <mask_alpha>true</mask_alpha>
             <mask_color_r>0</mask_color_r>
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover World</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
+        </match_config>
+        <match_config>
+            <label>Realm</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/realm_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>0</roi_left>
+            <roi_bottom>3</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
         </match_config>
     </preset>
-	<preset>
-        <name>Demo Preset #2</name>
-        <no_match_scene>Albion</no_match_scene>
-        <no_match_transition>Fade</no_match_transition>
+    <preset>
+        <name>Albion: Toggle Scene Items</name>
         <match_config>
             <label>Map</label>
             <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/map_automask.png</match_image_filename>
-            <roi_left>1541</roi_left>
-            <roi_bottom>782</roi_bottom>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>1564</roi_left>
+            <roi_bottom>819</roi_bottom>
             <per_pixel_allowed_error>10</per_pixel_allowed_error>
             <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
             <mask_mode>0</mask_mode>
             <mask_alpha>true</mask_alpha>
             <mask_color_r>0</mask_color_r>
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover Map</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
+            <reaction>
+                <type>1</type>
+                <target_scene_item>Conceal Map</target_scene_item>
+                <linger_ms>2000</linger_ms>
+            </reaction>
         </match_config>
         <match_config>
             <label>Dst Pane</label>
             <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/dst_pane_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
             <roi_left>16</roi_left>
             <roi_bottom>120</roi_bottom>
             <per_pixel_allowed_error>10</per_pixel_allowed_error>
-            <total_match_threshold>90</total_match_threshold>
+            <total_match_threshold>85</total_match_threshold>
+            <invert_result>false</invert_result>
             <mask_mode>0</mask_mode>
             <mask_alpha>true</mask_alpha>
             <mask_color_r>0</mask_color_r>
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover Dst Pane</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
+            <reaction>
+                <type>1</type>
+                <target_scene_item>Conceal Dst</target_scene_item>
+                <linger_ms>1000</linger_ms>
+            </reaction>
         </match_config>
         <match_config>
             <label>World</label>
             <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/world_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
             <roi_left>6</roi_left>
             <roi_bottom>0</roi_bottom>
             <per_pixel_allowed_error>10</per_pixel_allowed_error>
             <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
             <mask_mode>0</mask_mode>
             <mask_alpha>true</mask_alpha>
             <mask_color_r>0</mask_color_r>
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover World</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
+            <reaction>
+                <type>1</type>
+                <target_scene_item>Conceal World</target_scene_item>
+                <linger_ms>1000</linger_ms>
+            </reaction>
+        </match_config>
+        <match_config>
+            <label>Realm</label>
+            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/realm_mask.png</match_image_filename>
+            <was_downloaded>false</was_downloaded>
+            <roi_left>0</roi_left>
+            <roi_bottom>3</roi_bottom>
+            <per_pixel_allowed_error>10</per_pixel_allowed_error>
+            <total_match_threshold>90</total_match_threshold>
+            <invert_result>false</invert_result>
+            <mask_mode>0</mask_mode>
+            <mask_alpha>true</mask_alpha>
+            <mask_color_r>0</mask_color_r>
+            <mask_color_g>0</mask_color_g>
+            <mask_color_b>0</mask_color_b>
+            <is_enabled>true</is_enabled>
+            <reaction>
+                <type>1</type>
+                <target_scene_item>Conceal Realm</target_scene_item>
+                <linger_ms>1000</linger_ms>
+            </reaction>
         </match_config>
     </preset>
-		<preset>
-        <name>Demo Preset: Broken Images</name>
-        <no_match_scene>Albion</no_match_scene>
-        <no_match_transition>Fade</no_match_transition>
-        <match_config>
-            <label>Map</label>
-            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/doesnotexist.png</match_image_filename>
-            <roi_left>1541</roi_left>
-            <roi_bottom>782</roi_bottom>
-            <per_pixel_allowed_error>10</per_pixel_allowed_error>
-            <total_match_threshold>90</total_match_threshold>
-            <mask_mode>0</mask_mode>
-            <mask_alpha>true</mask_alpha>
-            <mask_color_r>0</mask_color_r>
-            <mask_color_g>0</mask_color_g>
-            <mask_color_b>0</mask_color_b>
-            <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover Map</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
-        </match_config>
-        <match_config>
-            <label>Dst Pane</label>
-            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/dst_pane_mask.png</match_image_filename>
-            <roi_left>16</roi_left>
-            <roi_bottom>120</roi_bottom>
-            <per_pixel_allowed_error>10</per_pixel_allowed_error>
-            <total_match_threshold>90</total_match_threshold>
-            <mask_mode>0</mask_mode>
-            <mask_alpha>true</mask_alpha>
-            <mask_color_r>0</mask_color_r>
-            <mask_color_g>0</mask_color_g>
-            <mask_color_b>0</mask_color_b>
-            <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover Dst Pane</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
-        </match_config>
-        <match_config>
-            <label>World</label>
-            <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/world_mask.png</match_image_filename>
-            <roi_left>6</roi_left>
-            <roi_bottom>0</roi_bottom>
-            <per_pixel_allowed_error>10</per_pixel_allowed_error>
-            <total_match_threshold>90</total_match_threshold>
-            <mask_mode>0</mask_mode>
-            <mask_alpha>true</mask_alpha>
-            <mask_color_r>0</mask_color_r>
-            <mask_color_g>0</mask_color_g>
-            <mask_color_b>0</mask_color_b>
-            <is_enabled>true</is_enabled>
-            <target_scene>Albion: Cover World</target_scene>
-            <target_transition>Cut</target_transition>
-            <linger_ms>0</linger_ms>
-        </match_config>
-    </preset>
-</presets>
+</pixel_match_switcher>
