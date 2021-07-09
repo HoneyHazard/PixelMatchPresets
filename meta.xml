@@ -5,6 +5,16 @@
     <plugin_version>0.31.6-alpha</plugin_version>
     <preset>
         <name>Albion: Switch Scenes</name>
+        <reaction>
+            <linger_ms>0</linger_ms>
+            <cooldown_ms>0</cooldown_ms>
+            <unmatch_actions>
+                <action>
+                    <action_type>1</action_type>
+                    <target_element>Albion</target_element>
+                </action>
+            </unmatch_actions>
+        </reaction>
         <match_config>
             <label>Map</label>
             <match_image_filename>https://raw.githubusercontent.com/HoneyHazard/PixelMatchPresets/main/Albion/map_automask.png</match_image_filename>
@@ -161,7 +171,7 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
-			<reaction>
+            <reaction>
                 <linger_ms>0</linger_ms>
                 <cooldown_ms>0</cooldown_ms>
                 <match_actions>
