@@ -20,6 +20,16 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+            <reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>1</action_type>
+                        <target_element>Albion: Cover Map</target_element>
+                    </action>
+                </match_actions>
+            </reaction>
         </match_config>
         <match_config>
             <label>Dst Pane</label>
@@ -36,6 +46,16 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+            <reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>1</action_type>
+                        <target_element>Albion: Cover Dst Pane</target_element>
+                    </action>
+                </match_actions>
+            </reaction>
         </match_config>
         <match_config>
             <label>World</label>
@@ -52,6 +72,16 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+            <reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>1</action_type>
+                        <target_element>Albion: Cover World</target_element>
+                    </action>
+                </match_actions>
+            </reaction>
         </match_config>
         <match_config>
             <label>Realm</label>
@@ -68,6 +98,16 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+            <reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>1</action_type>
+                        <target_element>Albion: Cover World</target_element>
+                    </action>
+                </match_actions>
+            </reaction>
         </match_config>
     </preset>
     <preset>
@@ -87,6 +127,24 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+            <reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>0</action_code>
+                        <target_element>Conceal Map</target_element>
+                    </action>
+                </match_actions>
+                <unmatch_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>1</action_code>
+                        <target_element>Conceal Map</target_element>
+                    </action>
+                </unmatch_actions>
+            </reaction>
         </match_config>
         <match_config>
             <label>Dst Pane</label>
@@ -103,6 +161,24 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+			<reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>0</action_code>
+                        <target_element>Conceal Dst</target_element>
+                    </action>
+                </match_actions>
+                <unmatch_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>1</action_code>
+                        <target_element>Conceal Dst</target_element>
+                    </action>
+                </unmatch_actions>
+            </reaction>
         </match_config>
         <match_config>
             <label>World</label>
@@ -119,6 +195,24 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+            <reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>0</action_code>
+                        <target_element>Conceal World</target_element>
+                    </action>
+                </match_actions>
+                <unmatch_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>1</action_code>
+                        <target_element>Conceal World</target_element>
+                    </action>
+                </unmatch_actions>
+            </reaction>
         </match_config>
         <match_config>
             <label>Realm</label>
@@ -135,6 +229,24 @@
             <mask_color_g>0</mask_color_g>
             <mask_color_b>0</mask_color_b>
             <is_enabled>true</is_enabled>
+            <reaction>
+                <linger_ms>0</linger_ms>
+                <cooldown_ms>0</cooldown_ms>
+                <match_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>0</action_code>
+                        <target_element>Conceal Realm</target_element>
+                    </action>
+                </match_actions>
+                <unmatch_actions>
+                    <action>
+                        <action_type>2</action_type>
+                        <action_code>1</action_code>
+                        <target_element>Conceal Realm</target_element>
+                    </action>
+                </unmatch_actions>
+            </reaction>
         </match_config>
     </preset>
     <preset>
